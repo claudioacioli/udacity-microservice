@@ -1,0 +1,12 @@
+[submodule "udacity-restapi-user"]
+	path = udacity-restapi-user
+	url = https://github.com/claudioacioli/udacity-restapi-user.git
+[submodule "udacity-restapi-feed"]
+	path = udacity-restapi-feed
+	url = https://github.com/claudioacioli/udacity-restapi-feed.git
+[submodule "udacity-deployment"]
+	path = udacity-deployment
+	url = https://github.com/claudioacioli/udacity-deployment.git
+[submodule "udacity-frontend"]
+	path = udacity-frontend
+	url = https://github.com/claudioacioli/udacity-frontend.git
