@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: udacity-deployment/docker
+    image: claudioacioli/reverseproxy
+  backend_user:
+    build:
+      context: udacity-restapi-user
+    image: claudioacioli/udacity-restapi-user
+  backend_feed:
+    build:
+      context: udacity-restapi-feed
+    image: claudioacioli/udacity-restapi-feed
+  frontend:
+    build:
+      context: udacity-frontend
+    image: claudioacioli/udacity-frontend:local
